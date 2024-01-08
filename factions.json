@@ -1,0 +1,173 @@
+{
+  "FACTIONS": {
+    "NECRONS": {
+      "NAME": {
+        "en": "NECRONS",
+        "fr": "NÉCRONS"
+      },
+      "UNITS": {
+        "OVERLORD_AMONHOTEKH": {
+          "NAME": {
+            "en": "OVERLORD AMONHOTEKH",
+            "fr": "TÉTRARQUE AMONHOTEKH"
+          },
+          "PROFILES": {
+            "Move": {
+              "en": "M",
+              "fr": "M",
+              "value": "5\""
+            },
+            "Toughness": {
+              "en": "T",
+              "fr": "E",
+              "value": 5
+            },
+            "Save": {
+              "en": "SV",
+              "fr": "SV",
+              "value": "2+"
+            },
+            "InvulnerableSave": {
+              "en": "INVULNERABLE SAVE",
+              "fr": "SAUVEGARDE INVULNÉRABLE",
+              "value": "4+"
+            },
+            "Wounds": {
+              "en": "W",
+              "fr": "PV",
+              "value": 6
+            },
+            "Leadership": {
+              "en": "LD",
+              "fr": "CD",
+              "value": "4+"
+            },
+            "ObjectiveControl": {
+              "en": "OC",
+              "fr": "CO",
+              "value": 1
+            }
+          },
+          "WEAPONS": {
+            "RANGED": {
+              "name": {
+                "en": "Tachyon arrow",
+                "fr": "Arbalète à tachyons"
+              },
+              "RANGE": "72\"",
+              "A": 1,
+              "BS": "2+",
+              "S": 16,
+              "AP": -5,
+              "D": "D6+2",
+              "effect": {
+                "en": "[ONE SHOT]",
+                "fr": "[TIR UNIQUE]"
+              }
+            },
+            "MELEE": {
+              "name": {
+                "en": "Overlord's blade",
+                "fr": "Lame de Tétrarque"
+              },
+              "RANGE": "Melee",
+              "A": 4,
+              "WS": "2+",
+              "S": 8,
+              "AP": -3,
+              "D": 2,
+              "effect": {
+                "en": "[DEVASTATING WOUNDS]",
+                "fr": "[BLESSURES DÉVASTATRICES]"
+              }
+            }
+          },
+          "ABILITIES": ""
+        },
+        "WARRIOR": {
+          "DATASHEET_NAME": {
+            "en": "WARRIOR",
+            "fr": "GUERRIER"
+          },
+          "PROFILES": {
+            "Move": {
+              "en": "M",
+              "fr": "M",
+              "value": "5\""
+            },
+            "Toughness": {
+              "en": "T",
+              "fr": "E",
+              "value": 4
+            },
+            "Save": {
+              "en": "SV",
+              "fr": "SV",
+              "value": "4+"
+            },
+            "InvulnerableSave": {
+              "en": "INVULNERABLE SAVE",
+              "fr": "SAUVEGARDE INVULNÉRABLE",
+              "value": "6+"
+            },
+            "Wounds": {
+              "en": "W",
+              "fr": "PV",
+              "value": 1
+            },
+            "Leadership": {
+              "en": "LD",
+              "fr": "CD",
+              "value": "10"
+            },
+            "ObjectiveControl": {
+              "en": "OC",
+              "fr": "CO",
+              "value": 1
+            }
+          },
+          "WEAPONS": {
+            "RANGED": {
+              "name": {
+                "en": "Gauss Flayer",
+                "fr": "Faiseur de Gauss"
+              },
+              "RANGE": "24\"",
+              "A": 1,
+              "BS": "3+",
+              "S": 4,
+              "AP": -1,
+              "D": 1,
+              "effect": ""
+            },
+            "MELEE": {
+              "name": {
+                "en": "Particle Caster",
+                "fr": "Émetteur de particules"
+              },
+              "RANGE": "Melee",
+              "A": 1,
+              "WS": "3+",
+              "S": 4,
+              "AP": 0,
+              "D": 1,
+              "effect": ""
+            }
+          },
+          "ABILITIES": ""
+        }
+      }
+    },
+    "TAU_EMPIRE": {
+      "NAME": {
+        "en": "TAU EMPIRE",
+        "fr": "EMPIRE T'AU"
+      },
+      "UNITS": {
+        "SPECIFY_UNIT_NAME_HERE": {
+          "DATASHEETNAME": "Specify TAU EMPIRE DATASHEET details here"
+        }
+      }
+    }
+  }
+}
