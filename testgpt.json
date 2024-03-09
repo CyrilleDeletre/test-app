@@ -1,0 +1,13 @@
+{
+    "factions": [
+      {
+        "name": "NECRONS",
+        "description": "Faction de robots extraterrestres."
+      },
+      {
+        "name": "SPACE MARINES",
+        "description": "Faction de super soldats de l'humanité."
+      }
+    ]
+  }
+  

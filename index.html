@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="display.js" defer></script>
+    <script src="ecf.js" defer></script>
 </head>
 <body>
+    <h1>Faction Viewer</h1>
 
+    <form id="factionForm" onsubmit="submitForm(event)">
+      <label for="factionSelect">Sélectionnez une faction :</label>
+      <select id="factionSelect"></select>
+      <button type="submit">Submit</button>
+    </form>
+  
+    <div id="factionDetails"></div>
 </body>
 </html>

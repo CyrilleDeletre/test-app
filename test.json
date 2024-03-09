@@ -1,0 +1,102 @@
+{
+  "PROFILES_CHARACTERISTICS": {
+    "Move": {
+      "en": "M",
+      "fr": "M"
+    },
+    "Toughness": {
+      "en": "T",
+      "fr": "E"
+    },
+    "Save": {
+      "en": "SV",
+      "fr": "SV"
+    },
+    "Invulnerable_Save": {
+      "en": "INVULNERABLE SAVE",
+      "fr": "SAUVEGARDE INVULNÉRABLE"
+    },
+    "Wounds": {
+      "en": "W",
+      "fr": "PV"
+    },
+    "Leadership": {
+      "en": "LD",
+      "fr": "CD"
+    },
+    "Objective_Control": {
+      "en": "OC",
+      "fr": "CO"
+    }
+  },
+  "WEAPONS_CHARACTERISTICS": {
+    "GLOBAL" : {
+      "Range": {
+        "en": "RANGE",
+        "fr": "PORTÉE"
+      },
+      "Attacks": {
+        "en": "A",
+        "fr": "A"
+      },
+      "Strength": {
+        "en": "S",
+        "fr": "F"
+      },
+      "Armour_Penetration": {
+        "en": "AP",
+        "fr": "PA"
+      },
+      "Damage:": {
+        "en": "D",
+        "fr": "D"
+      }
+    },
+    "RANGED" : {
+      "RANGED_NAME": {
+        "en": "RANGED WEAPONS",
+        "fr": "ARMES DE TIR"
+      },
+      "RANGE_LOGO": "range_Logo.jpg",
+      "Ballistic_Skill": {
+        "en": "BS",
+        "fr": "CT"
+      }
+    },
+    "MELEE" : {
+      "MELEE_NAME": {
+        "en": "MELEE WEAPONS",
+        "fr": "ARMES DE MÊLÉE"
+      },
+      "MELEE_LOGO": "range_Logo.jpg",
+      "Weapon_Skill": {
+        "en": "WS",
+        "fr": "CC"
+      }
+    }
+  },
+  "WEAPON_ABILITIES": {
+    "ONE_SHOT": {
+      "ABILITY_NAME": {
+        "en": "[ONE SHOT]",
+        "fr": "[TIR UNIQUE]"
+      },
+      "DESCRIPTION": {
+        "en": "One Shot: The bearer can only shoot with this weapon once per battle",
+        "fr": "Tir Unique : Le porteur peut tirer une seule fois par bataille avec cette arme"
+      }
+    },
+    "DEVASTATING WOUNDS": {
+      "ABILITY_NAME": {
+        "en": "[DEVASTATING WOUNDS]",
+        "fr": "[BLESSURES DÉVASTATRICES]"
+      },
+      "DESCRIPTION": {
+        "en": "Each time an attack is made with such a weapon, a Critical Wound inflicts a number of mortal wounds on the target equal to the Damage characteristic of that weapon and the attack sequence ends.",
+        "fr": "A FAIRE"
+      }
+    }
+  }
+}
+
+

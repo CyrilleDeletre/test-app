@@ -1,173 +1,164 @@
 {
   "FACTIONS": {
     "NECRONS": {
-      "NAME": {
-        "en": "NECRONS",
-        "fr": "NÉCRONS"
+      "FACTION_NAME": {
+        "en":"NECRONS",
+        "fr":"NÉCRONS"
       },
-      "UNITS": {
-        "OVERLORD_AMONHOTEKH": {
-          "NAME": {
-            "en": "OVERLORD AMONHOTEKH",
-            "fr": "TÉTRARQUE AMONHOTEKH"
-          },
-          "PROFILES": {
-            "Move": {
-              "en": "M",
-              "fr": "M",
-              "value": "5\""
-            },
-            "Toughness": {
-              "en": "T",
-              "fr": "E",
-              "value": 5
-            },
-            "Save": {
-              "en": "SV",
-              "fr": "SV",
-              "value": "2+"
-            },
-            "InvulnerableSave": {
-              "en": "INVULNERABLE SAVE",
-              "fr": "SAUVEGARDE INVULNÉRABLE",
-              "value": "4+"
-            },
-            "Wounds": {
-              "en": "W",
-              "fr": "PV",
-              "value": 6
-            },
-            "Leadership": {
-              "en": "LD",
-              "fr": "CD",
-              "value": "4+"
-            },
-            "ObjectiveControl": {
-              "en": "OC",
-              "fr": "CO",
-              "value": 1
-            }
-          },
-          "WEAPONS": {
-            "RANGED": {
-              "name": {
-                "en": "Tachyon arrow",
-                "fr": "Arbalète à tachyons"
-              },
-              "RANGE": "72\"",
-              "A": 1,
-              "BS": "2+",
-              "S": 16,
-              "AP": -5,
-              "D": "D6+2",
-              "effect": {
-                "en": "[ONE SHOT]",
-                "fr": "[TIR UNIQUE]"
-              }
-            },
-            "MELEE": {
-              "name": {
-                "en": "Overlord's blade",
-                "fr": "Lame de Tétrarque"
-              },
-              "RANGE": "Melee",
-              "A": 4,
-              "WS": "2+",
-              "S": 8,
-              "AP": -3,
-              "D": 2,
-              "effect": {
-                "en": "[DEVASTATING WOUNDS]",
-                "fr": "[BLESSURES DÉVASTATRICES]"
-              }
-            }
-          },
-          "ABILITIES": ""
+      "RULES" : {
+        "CODEX":{
+          "NAME":{
+            "en": "CODEX: NECRONS",
+            "fr": "CODEX : NÉCRONS"
+          }
         },
-        "WARRIOR": {
-          "DATASHEET_NAME": {
-            "en": "WARRIOR",
-            "fr": "GUERRIER"
+        "COMBAT_PATROL": {
+          "PATROL_NAME":{
+            "en": "AMONHOTEKH'S GUARD",
+            "fr": "GARDE D'AMONHOTEKH"
           },
-          "PROFILES": {
-            "Move": {
-              "en": "M",
-              "fr": "M",
-              "value": "5\""
-            },
-            "Toughness": {
-              "en": "T",
-              "fr": "E",
-              "value": 4
-            },
-            "Save": {
-              "en": "SV",
-              "fr": "SV",
-              "value": "4+"
-            },
-            "InvulnerableSave": {
-              "en": "INVULNERABLE SAVE",
-              "fr": "SAUVEGARDE INVULNÉRABLE",
-              "value": "6+"
-            },
-            "Wounds": {
-              "en": "W",
-              "fr": "PV",
-              "value": 1
-            },
-            "Leadership": {
-              "en": "LD",
-              "fr": "CD",
-              "value": "10"
-            },
-            "ObjectiveControl": {
-              "en": "OC",
-              "fr": "CO",
-              "value": 1
-            }
+          "PATROL_SPECIAL_RULES":{
+
           },
-          "WEAPONS": {
-            "RANGED": {
-              "name": {
-                "en": "Gauss Flayer",
-                "fr": "Faiseur de Gauss"
+          "PATROL_UNITS": {
+            "OVERLORD_AMONHOTEKH": {
+              "DATASHEET_NAME": {
+                "en": "OVERLORD AMONHOTEKH",
+                "fr": "TÉTRARQUE AMONHOTEKH"
               },
-              "RANGE": "24\"",
-              "A": 1,
-              "BS": "3+",
-              "S": 4,
-              "AP": -1,
-              "D": 1,
-              "effect": ""
-            },
-            "MELEE": {
-              "name": {
-                "en": "Particle Caster",
-                "fr": "Émetteur de particules"
+              "DATASHEET_IMG": "Overlord-Amonhotekh.jpg",
+              "DATASHEET_DESCRIPTION" : {
+                "en": "Overlords lead the Necron dynasties in battle. Amonhotekh's android mind is tremendously swift, his body implacably resilient and his weapons eldritch, ancient and lethal. Yet it is his indomitable will that is perhaps his most fearsome asset, for with this he drives entire armies to war.",
+                "fr":"Les Tétrarques dirigent les Dynasties Nécrons au combat. L'esprit androïde d'Amonhotekh est plus vif que la pensée, son corps est d'une résistance implacable et ses armes sont ésotériques, anciennes et fatales. Pourtant, c'est sa volonté indomptable qui constitue son atout majeur, car elle lui permet de contrôler des armées entières."
               },
-              "RANGE": "Melee",
-              "A": 1,
-              "WS": "3+",
-              "S": 4,
-              "AP": 0,
-              "D": 1,
-              "effect": ""
+              "PROFILES_CHARACTERISTICS": {
+                  "M": "5\"",
+                  "T": 5,
+                  "SV": "2+",
+                  "IS": "4+",
+                  "W": 6,
+                  "LD": "4+",
+                  "OC": 1
+                },
+              "WEAPONS": {
+                "RANGED": {
+                  "TACHYON_ARROW": {
+                    "WEAPON_NAME": {
+                      "en": "Tachyon arrow",
+                      "fr": "Arbalète à tachyons"
+                    },
+                    "RANGE": "72\"",
+                    "A": 1,
+                    "BS": "2+",
+                    "S": 16,
+                    "AP": -5,
+                    "D": "D6+2",
+                    "WEAPON_ABILITIES": "oneShot.js"
+                  }
+                },
+                "MELEE": {
+                  "OVERLORD'S_BLADE": {
+                    "WEAPON_NAME": {
+                      "en": "Overlord's blade",
+                      "fr": "Lame de Tétrarque"
+                    },
+                    "RANGE": "Melee",
+                    "A": 4,
+                    "WS": "2+",
+                    "S": 8,
+                    "AP": -3,
+                    "D": 2,
+                    "WEAPON_ABILITIES": "devastatingWounds.js"
+                  }
+                }
+              },
+              "ABILITIES": {
+                "test": "test"
+              },
+              "KEYWORDS": {
+                "test2": "test"
+              }
+            },
+            "WARRIOR": {
+              "DATASHEET_NAME": {
+                "en": "WARRIOR",
+                "fr": "GUERRIER"
+              },
+              "PROFILES": {
+                "Move": {
+                  "en": "M",
+                  "fr": "M",
+                  "value": "5\""
+                },
+                "Toughness": {
+                  "en": "T",
+                  "fr": "E",
+                  "value": 4
+                },
+                "Save": {
+                  "en": "SV",
+                  "fr": "SV",
+                  "value": "4+"
+                },
+                "InvulnerableSave": {
+                  "en": "INVULNERABLE SAVE",
+                  "fr": "SAUVEGARDE INVULNÉRABLE",
+                  "value": "6+"
+                },
+                "Wounds": {
+                  "en": "W",
+                  "fr": "PV",
+                  "value": 1
+                },
+                "Leadership": {
+                  "en": "LD",
+                  "fr": "CD",
+                  "value": "10"
+                },
+                "ObjectiveControl": {
+                  "en": "OC",
+                  "fr": "CO",
+                  "value": 1
+                }
+              },
+              "WEAPONS": {
+                "RANGED": {
+                  "name": {
+                    "en": "Gauss Flayer",
+                    "fr": "Faiseur de Gauss"
+                  },
+                  "RANGE": "24\"",
+                  "A": 1,
+                  "BS": "3+",
+                  "S": 4,
+                  "AP": -1,
+                  "D": 1,
+                  "effect": ""
+                },
+                "MELEE": {
+                  "name": {
+                    "en": "Particle Caster",
+                    "fr": "Émetteur de particules"
+                  },
+                  "RANGE": "Melee",
+                  "A": 1,
+                  "WS": "3+",
+                  "S": 4,
+                  "AP": 0,
+                  "D": 1,
+                  "effect": ""
+                }
+              },
+              "ABILITIES": ""
             }
-          },
-          "ABILITIES": ""
+          }
         }
       }
     },
     "TAU_EMPIRE": {
-      "NAME": {
-        "en": "TAU EMPIRE",
-        "fr": "EMPIRE T'AU"
-      },
-      "UNITS": {
-        "SPECIFY_UNIT_NAME_HERE": {
-          "DATASHEETNAME": "Specify TAU EMPIRE DATASHEET details here"
-        }
-      }
+      
     }
   }
 }
+
+

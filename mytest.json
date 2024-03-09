@@ -1,0 +1,37 @@
+{
+  "generalRules": {
+    "ONE SHOT": {"description": "Peut être utilisé une seule fois."},
+    "DEVASTATING WOUNDS": {"description": "En cas de 6 pour blesser, inflige une blessure mortelle"},
+    "Tir à longue distance": {"description": "Peut être utilisé à une distance de 24 cm."},
+    "MELEE": {"description": "Inflige des dégâts uniquement au corps à corps."}
+  },
+  "characters": [
+    {
+      "name": "Overlord Amonhotekh",
+      "keywords": ["Infantry", "Character", "Noble", "Overlord", "Amonhotekh"],
+      "weapons": [
+        {
+          "name": "tachyon arrow",
+          "stats": {"range":"72\"", "a": 1, "bs": "2+", "s":16, "ap":-5, "d":"d6+2"},
+          "rules": ["ONE SHOT"]
+        },
+        {
+          "name": "overlord's blade",
+          "stats": {"range":"Melee", "a": 14, "bs": "2+", "s":8, "ap":-3, "d":2},
+          "rules": ["DEVASTATING WOUNDS"]
+        }
+      ]
+    },
+    {
+      "name": "Soldat de base",
+      "keywords": ["Infantry"],
+      "weapons": [
+        {
+          "name": "Fusil",
+          "stats": {"attaque": 12, "défense": 4},
+          "rules": ["Tir à longue distance"]
+        }
+      ]
+    }
+  ]
+}
